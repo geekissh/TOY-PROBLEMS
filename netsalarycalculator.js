@@ -35,6 +35,7 @@ class NetSalaryCalculator {
             { lowerLimit: 12000, upperLimit: 14999, deduction: 500},
             { lowerLimit: 15000, upperLimit: 19999, deduction: 600},
             { lowerLimit: 20000, upperLimit: 24999, deduction: 750},
+            { lowerlimit: 25000, upperlimit: Infinity, deduction: 1700},
         ];
 
         // NSSF contribution rates for Tier I and Tier II.
